@@ -1,0 +1,82 @@
+<!DOCTYPE html> <!-- The new doctype -->
+<html>
+    <head>
+    
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        
+        <title>Coding A CSS3 &amp; HTML5 One Page Template</title>
+        
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+        
+        <!-- Internet Explorer HTML5 enabling code: -->
+        
+        <!--[if IE]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        
+        <style type="text/css">
+        .clear {
+          zoom: 1;
+          display: block;
+        }
+        </style>
+
+        
+        <![endif]-->
+        <script src='https://www.google.com/recaptcha/api.js'></script>
+    </head>
+    
+    <body>
+    	
+    	<section id="page"> <!-- Defining the #page section with the section tag -->
+    
+            <header> <!-- Defining the header section of the page with the appropriate tag -->
+            
+                <hgroup>
+                    <h1>PRF</h1>
+                    <h3>Coint - Recaptcha invisible</h3>
+                </hgroup>
+                                
+            </header>
+            
+            <section id="articles"> <!-- A new section with the articles -->
+
+                <div class="line"></div>
+                
+                <article id="article3">
+                    <h2>Proteção contra robôs</h2>
+                    
+                    <div class="line"></div>
+                    
+                    <div class="articleBody clear">
+                    	<form method="post">
+							<div class="g-recaptcha" data-sitekey="6Lcm1yEUAAAAAIGB-X7bFLJIFwQpdjO9d_SXEJYw"></div>
+                        </form>
+                        
+                        <p>The new reCAPTCHA is here. A significant number of your users can now attest they are human without having to solve a CAPTCHA. Instead with just a single click they’ll confirm they are not a robot. We’re calling it the No CAPTCHA reCAPTCHA experience. See blog for more details.</p>
+                        <p>reCAPTCHA is a free service that protects your website from spam and abuse. reCAPTCHA uses an advanced risk analysis engine and adaptive CAPTCHAs to keep automated software from engaging in abusive activities on your site. It does this while letting your valid users pass through with ease.</p>
+                    </div>
+                </article>
+
+            </section>
+
+        <footer> <!-- Marking the footer section -->
+
+           <div class="line"></div>
+           
+           <p>Copyright - Coint</p> <!-- Change the copyright notice -->
+           
+           <a href="#" class="up">Go UP</a>
+           <a href="http://www.prf.gov.br" class="by">PRF</a>
+           
+
+        </footer>
+            
+		</section> <!-- Closing the #page section -->
+        
+        <!-- JavaScript Includes -->
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+        <script src="jquery.scrollTo-1.4.2/jquery.scrollTo-min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
